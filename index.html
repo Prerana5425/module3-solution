@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module 3 Assignment</title>
+  
+  <!-- Bootstrap 3 Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Hamburger Menu Button for Mobile -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-dropdown" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Brand Name -->
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <!-- Dropdown Items (Visible ONLY on Mobile 'xs' screen size via Custom CSS) -->
+      <div class="collapse navbar-collapse" id="menu-dropdown">
+        <ul class="nav navbar-nav visible-xs text-center">
+          <li><a href="#">Chicken</a></li>
+          <hr class="visible-xs">
+          <li><a href="#">Beef</a></li>
+          <hr class="visible-xs">
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Layout -->
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+    
+    <div class="row">
+      <!-- Section 1: Chicken -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="content-box">
+          <h3>Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed diam eget nisi porttitor vestibulum. Maecenas hendrerit risus nec purus lobortis, non vestibulum ante convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ut tristique massa. Vivamus ut lacinia turpis. Aliquam nec efficitur turpis. Sed sit amet finibus sapien.</p>
+        </div>
+      </div>
+
+      <!-- Section 2: Beef -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="content-box">
+          <h3>Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed diam eget nisi porttitor vestibulum. Maecenas hendrerit risus nec purus lobortis, non vestibulum ante convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ut tristique massa. Vivamus ut lacinia turpis. Aliquam nec efficitur turpis. Sed sit amet finibus sapien.</p>
+        </div>
+      </div>
+
+      <!-- Section 3: Sushi -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="content-box">
+          <h3>Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed diam eget nisi porttitor vestibulum. Maecenas hendrerit risus nec purus lobortis, non vestibulum ante convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ut tristique massa. Vivamus ut lacinia turpis. Aliquam nec efficitur turpis. Sed sit amet finibus sapien.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery and Bootstrap 3 JavaScript (Required for the Hamburger Dropdown to work) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
