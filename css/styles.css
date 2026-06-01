@@ -1,0 +1,26 @@
+/* Custom Content Box Styling */
+.content-box {
+  background-color: #e6e6e6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.content-box h3 {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+/* Ensure navbar items have clean lines on mobile dropdowns */
+.navbar-nav hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #ddd;
+}
+
+/* Styling navbar brand text */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
